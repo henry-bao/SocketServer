@@ -1,0 +1,19 @@
+{
+    "name": "socket-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/henry-bao/SocketServer.git",
+    "author": "henry-bao <henrybao@uw.edu>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "dev": "ts-node src/index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^18.15.11",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {}
+}
